@@ -1,6 +1,6 @@
 {
-  "build": [
-    "bash build-backend.sh"
-  ],
+  "build": {
+    "command": "bash build-backend.sh"
+  },
   "start": "java -jar ecom-proj/target/*.jar"
 }
